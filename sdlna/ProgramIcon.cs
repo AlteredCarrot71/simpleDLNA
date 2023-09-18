@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using NMaier.SimpleDlna.Utilities;
@@ -36,7 +36,7 @@ namespace NMaier.SimpleDlna
           window, SafeNativeMethods.WM_SETICON, IntPtr.Zero, iconSm);
       }
       catch (Exception ex) {
-        Debug("Couldnd't set icon", ex);
+        Debug("Couldn't set icon", ex);
       }
     }
 
