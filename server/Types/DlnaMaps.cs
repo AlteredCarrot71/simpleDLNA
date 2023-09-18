@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -101,7 +101,7 @@ namespace NMaier.SimpleDlna.Server
       {DlnaMime.VideoAVC, "video/mp4"},
       {DlnaMime.VideoAVI, "video/avi"},
       {DlnaMime.VideoFLV, "video/flv"},
-      {DlnaMime.VideoMKV, "video/x-mkv"},
+      {DlnaMime.VideoMKV, "video/x-matroska"},
       {DlnaMime.VideoMPEG, "video/mpeg"},
       {DlnaMime.VideoOGV, "video/ogg"},
       {DlnaMime.VideoWMV, "video/x-ms-wmv"}
