@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using log4net;
@@ -47,7 +47,7 @@ namespace NMaier.SimpleDlna
 
     [Argument("no-rescanning", HelpText = "Disable rescanning of locations after first scan")] [FlagArgument(false)] public bool Rescanning = true;
 
-    [Argument("seperate", HelpText = "Mount directories as seperate servers")] [FlagArgument(true)] public bool Seperate
+    [Argument("separate", HelpText = "Mount directories as seperate servers")] [FlagArgument(true)] public bool Separate
       = false;
 
     [Argument("help", HelpText = "Print usage")] [ShortArgument('?')] [ShortArgumentAlias('h')] [FlagArgument(true)] public bool ShowHelp = false;
