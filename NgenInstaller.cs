@@ -7,7 +7,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace NMaier.SimpleDlna
+namespace SimpleDlna
 {
   [RunInstaller(true)]
   public class NgenInstaller : Installer
